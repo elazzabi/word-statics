@@ -1,0 +1,28 @@
+{
+  "name": "word-statics",
+  "version": "0.0.1",
+  "description": "Get statistics about words in a string! Total words, total unique words and number of iterations for a given word",
+  "license": "MIT",
+  "repository": "github.com/elazzabi/word-statics",
+  "author": {
+    "name": "EL AZZABI ahmed",
+    "email": "elazzabi.ahmed@gmail.com",
+    "url": "elazzabi.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "main": "index.js",
+  "keywords": [
+    "statics",
+    "words",
+    "string"
+  ],
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.14.0"
+  }
+}
