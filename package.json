@@ -1,6 +1,6 @@
 {
   "name": "word-statics",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Get statistics about words in a string! Total words, total unique words and number of iterations for a given word",
   "license": "MIT",
   "repository": "github.com/elazzabi/word-statics",
@@ -21,6 +21,9 @@
     "words",
     "string"
   ],
+  "dependencies": {
+    "ramda": "^0.22.1"
+  },
   "devDependencies": {
     "ava": "^0.15.2",
     "xo": "^0.14.0"
